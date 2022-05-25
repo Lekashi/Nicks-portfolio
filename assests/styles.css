@@ -1,0 +1,12 @@
+header {
+    background-color: #4C4E61;
+}
+header h1 {
+    text-align: center;
+}
+
+header ul {
+    position: relative;
+    list-style: none;
+    text-align: right;
+}
