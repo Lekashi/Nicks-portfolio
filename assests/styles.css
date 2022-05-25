@@ -1,12 +1,27 @@
 header {
-    background-color: #4C4E61;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #13293d;
+    color: #fff;
+}
+header img {
+    max-width: 600px;
+    min-width: 300px;
 }
 header h1 {
     text-align: center;
 }
 
 header ul {
-    position: relative;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    font-size: 150%;
     list-style: none;
-    text-align: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+footer ul{
+    list-style: none;
 }
