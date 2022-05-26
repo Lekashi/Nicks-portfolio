@@ -21,6 +21,13 @@ header {
     color: #fff;
 }
 
+header nav{
+    text-align: center;
+    padding:10px;
+    color:white;
+    text-decoration: none;
+}
+
 nav ul{
     margin: 0px;
 }
@@ -36,7 +43,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rbga(255, 255, 255, .3);
+    color: var(--darkBlue);
+    background-color: var(--gold);
 }
 img {
     max-width: 600px;
