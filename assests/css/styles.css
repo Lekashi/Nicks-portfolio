@@ -73,8 +73,8 @@ nav a:hover {
 
 #aboutMe h3 {
     font-size: x-large;
-    text-decoration: underline;
     flex-direction: column;
+    border-bottom:solid;
 }
 
 #aboutMe p {
@@ -86,20 +86,46 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: stretch;
 }
 
 #side-pic1, #side-pic2, #side-pic3, #mainCard {
     background-color: var(--lightestBlue);
     color: var(--darkGold);
+    flex: 1 1 100px;
 }
 
-#mainCard {
-    background: url("./images/passwordgenerator.jpg");
+#pic0 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
-#side-pic1 {
-    background: url("./images/");
+#pic1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#pic0 img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 600px;
+}
+#pic1 img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 600px;
+}
+
+#pic0 img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+#pic1 img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
 footer ul{
