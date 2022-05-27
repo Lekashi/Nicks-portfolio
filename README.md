@@ -9,9 +9,13 @@ This code is my portfolio website. This website shows my projects with links to 
 
 ## To do List:
 1\. Fix css and css images flexbox 
+
 2\. Add more pseudo-classes
+
 3\. Add screen media
+
 4\. Add links for the works card
+
 
 
 ## Links:
