@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #777;
+    color:#c400f5;
 }
 
 :root {
@@ -16,7 +16,7 @@
 }
 
 html {
-    background-color: var(--lightBlue);
+    background-color:#13474c;
 }
 
 
@@ -28,6 +28,9 @@ header {
     background-color: var(--darkestBlue);
     color: #fff;
     border-radius: 10px;
+    max-width: 1400px;
+    min-width: 350px;
+    margin: auto;
 }
 
 header h1 {
@@ -108,10 +111,18 @@ footer ul {
     padding: 3px 0px 3px 0px;
 }
 
+.projects a h3:hover {
+    box-shadow: #c400f5 5px 5px 5px;
+}
+
 .projects a img {
     border-radius: 10px;
     max-width: 600px;
     min-width: 300px;
+}
+
+.projects a img:hover {
+    box-shadow: #c400f5 5px 5px 5px;
 }
 
 .Resume a {
@@ -146,6 +157,12 @@ footer ul {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    max-width: 1350px;
+    margin: auto;
+    background-color: azure;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-radius: 25px;
 }
 
 #aboutMe h3 {
@@ -157,6 +174,7 @@ footer ul {
 #aboutMe p {
     font-size: larger;
     text-align: center;
+    max-width: 1350px;
 }
 
 h2#Works-Title {
@@ -164,9 +182,13 @@ h2#Works-Title {
     text-decoration: underline;
     font-size: xx-large;
     font-weight: bolder;
+    padding-top: 10px;
 }
 
 article.Works {
     background-color: var(--darkBlue);
     border-radius: 10px;
+    max-width: 1400px;
+    min-width: 350px;
+    margin: auto;
 }
