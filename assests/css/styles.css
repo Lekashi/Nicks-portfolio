@@ -182,6 +182,9 @@ article.Works {
     max-width: 600px;
     min-width: 300px;
 }
+
+/* ------- PSEUDO CLASSES --------- */
+
 .projects a h3:hover {
     box-shadow: #c400f5 5px 5px 5px;
 }
