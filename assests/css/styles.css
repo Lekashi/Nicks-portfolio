@@ -70,8 +70,9 @@ nav a:hover {
     border-radius: 10px;
 }
 footer  {
-    display:flex;
+    display:column;
     justify-content: center;
+
 }
 footer ul {
     list-style: none;
@@ -80,6 +81,8 @@ footer ul {
     padding: 6px 0px 6px 0px;
     width: 300px;
     border-radius: 10px;
+    margin: auto;
+    width: 20%;
 }
 
 .projects {
@@ -107,6 +110,8 @@ footer ul {
 
 .projects a img {
     border-radius: 10px;
+    max-width: 600px;
+    min-width: 300px;
 }
 
 .Resume a {
@@ -118,9 +123,9 @@ footer ul {
     background-color: var(--darkestBlue);
     max-width: 120px;
     min-width: 120px;
-    text-align: center;
     padding-bottom: 8px;
     border-radius: 3px;
+    text-align: center;
 }
 
 .Resume h2:hover {
