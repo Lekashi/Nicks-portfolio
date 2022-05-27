@@ -8,13 +8,12 @@ This code is my portfolio website. This website shows my projects with links to 
 2\. CSS
 
 ## To do List:
-1\. Fix css and css images flexbox 
 
-2\. Add more pseudo-classes
+1\. Add more pseudo-classes
 
-3\. Add screen media
+2\. Fix folder name of "assests" to "assets"
 
-4\. Fix folder name of "assests" to "assets"
+3\. Fix the order of Images
 
 ## Links:
 
