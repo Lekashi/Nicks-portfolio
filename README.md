@@ -13,8 +13,6 @@ This code is my portfolio website. This website shows my projects with links to 
 
 2\. Fix folder name of "assests" to "assets"
 
-3\. Fix the order of Images
-
 ## Links:
 
 [Link to Github Repo](https://github.com/Lekashi/Nicks-portfolio "Link to Github Repo")
