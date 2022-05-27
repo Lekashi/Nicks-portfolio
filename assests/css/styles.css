@@ -82,77 +82,27 @@ nav a:hover {
     text-align: center;
 }
 
-.Works {
+#Works-title {
+    text-align: center;
+    text-decoration: underline;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.projects {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
+    padding-left: 100px;
+    flex-basis: 60%;
 }
-
-#mainCard {
-    background-color: var(--lightestBlue);
-    color: var(--darkGold);
-    flex: 1 1 100px;
-}
-
-#side-pic1, #side-pic2, #side-pic3 {
-    flex: 1 0 0;
-    flex-direction: row;
-    flex-shrink: 1;
-}
-
-#pic0 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-#pic1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-#pic2  {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-#pic3  {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-#pic0 img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 600px;
-}
-#pic1 img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 600px;
-}
-
-#pic0 img:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-#pic1 img:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+.projects a img {
+    border-radius: 10px;
 }
 
 footer ul{
     list-style: none;
 }
-
 
 #hero {
     float: left;

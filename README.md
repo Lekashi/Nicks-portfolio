@@ -1,7 +1,7 @@
 # Nicks-Portfolio
 
 ### Description:
-This code is my portfolio website. This website shows my projects with links to  all my repos.A working navbar will help you scroll the page. This is still a work in progress with many to dos. The website is not the final product and could be completely different.
+This code is my portfolio website. This website shows my projects with links to all my repos. A working navbar will help you scroll the page. This is still a work in progress with many to dos. The website is not the final product and could be completely different.
 
 ### Technology used:
 1\. HTML  
@@ -14,9 +14,7 @@ This code is my portfolio website. This website shows my projects with links to 
 
 3\. Add screen media
 
-4\. Add links for the works card
-
-
+4\. Fix folder name of "assests" to "assets"
 
 ## Links:
 
