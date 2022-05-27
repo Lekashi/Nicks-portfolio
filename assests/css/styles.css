@@ -37,6 +37,8 @@ header nav{
     padding:10px;
     color:white;
     text-decoration: none;
+    position: relative;
+    top: -13px;
 }
 
 nav ul{
@@ -62,6 +64,47 @@ nav a:hover {
     background-color: var(--gold);
     border-radius: 10px;
 }
+
+footer ul{
+    list-style: none;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 100px;
+    flex-basis: 60%;
+}
+
+.projects a img {
+    border-radius: 10px;
+}
+
+.Resume a {
+    justify-content: center;
+    display: flex;
+}
+
+.Resume h2 {
+    background-color: var(--darkestBlue) ;
+    max-width: 120px;
+    min-width: 120px;
+    text-align: center; 
+}
+
+.Resume h2:hover {
+    background-color: var(--blue);
+}
+
+#hero {
+    float: left;
+    max-width: 600px;
+    min-width: 300px;
+    border-radius: 10px;
+}
+
 #aboutMe {
     display: flex;
     justify-content: center;
@@ -82,32 +125,9 @@ nav a:hover {
     text-align: center;
 }
 
-#Works-title {
+h2#Works-Title {
     text-align: center;
     text-decoration: underline;
-    font-size: larger;
+    font-size: xx-large;
     font-weight: bolder;
 }
-
-.projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-left: 100px;
-    flex-basis: 60%;
-}
-.projects a img {
-    border-radius: 10px;
-}
-
-footer ul{
-    list-style: none;
-}
-
-#hero {
-    float: left;
-    max-width: 600px;
-    min-width: 300px;
-    border-radius: 10px;
-}
-
