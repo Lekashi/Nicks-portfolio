@@ -127,6 +127,25 @@ footer ul {
 
 /* ------- PROJECTS ------- */
 
+.mainWork h3 {
+position: relative;
+bottom: 500px;
+left: 340px;
+background-color: #13474c;
+border-radius: 6px;
+max-width: 200px;
+text-align: center;
+padding: 5px 0px 5px 0px;
+}
+
+.mainWork img {
+    display:flex;
+    max-width: 800px;
+    min-width: none;
+    margin: auto;
+    border-radius: 30px;
+}
+
 article.Works {
     background-color: var(--darkBlue);
     border-radius: 10px;
@@ -158,14 +177,17 @@ article.Works {
     padding: 3px 0px 3px 0px;
 }
 
-.projects a h3:hover {
-    box-shadow: #c400f5 5px 5px 5px;
-}
-
 .projects a img {
     border-radius: 10px;
     max-width: 600px;
     min-width: 300px;
+}
+.projects a h3:hover {
+    box-shadow: #c400f5 5px 5px 5px;
+}
+
+.mainWork h3:hover,.mainWork img:hover{
+    box-shadow: #c400f5 5px 5px 5px;
 }
 
 .projects a img:hover {
