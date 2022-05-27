@@ -21,4 +21,4 @@ This code is my portfolio website. This website shows my projects with links to 
 
 ## Screenshot of the website
 
-![Screenshot of the website](./assests/images/Screenshot.png)
+![Screenshot of the website](./assets/images/Screenshot.png)
