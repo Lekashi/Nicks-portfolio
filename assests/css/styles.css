@@ -85,13 +85,20 @@ nav a:hover {
 .Works {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
-#side-pic1, #side-pic2, #side-pic3, #mainCard {
+#mainCard {
     background-color: var(--lightestBlue);
     color: var(--darkGold);
     flex: 1 1 100px;
+}
+
+#side-pic1, #side-pic2, #side-pic3 {
+    flex: 1 0 0;
+    flex-direction: row;
+    flex-shrink: 1;
 }
 
 #pic0 {
@@ -102,6 +109,20 @@ nav a:hover {
 }
 
 #pic1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#pic2  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#pic3  {
     display: block;
     margin-left: auto;
     margin-right: auto;
