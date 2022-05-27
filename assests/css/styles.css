@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #777
+    color: #777;
 }
 
 :root{
@@ -9,6 +9,10 @@
     --lightRed:#F71B1C ;
     --gold: #EBE817;
     --darkGold: #9E9C08;
+}
+
+html {
+    background-color: var(--lightBlue);
 }
 
 
@@ -19,10 +23,10 @@ header {
     padding: 1%;
     background-color: var(--darkestBlue);
     color: #fff;
+    border-radius: 10px;
 }
 
 header h1 {
-    background-color: var(--lightBlue);
     text-align: center;
 }
 
@@ -56,17 +60,18 @@ nav a {
 nav a:hover {
     color: var(--darkBlue);
     background-color: var(--gold);
+    border-radius: 10px;
 }
 #aboutMe {
-    display:flex;
-    align-items:baseline;
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 
 
 #aboutMe h3 {
-    align-self: flex-start;
     font-size: x-large;
     text-decoration: underline;
     flex-direction: column;
@@ -74,18 +79,27 @@ nav a:hover {
 
 #aboutMe p {
     font-size: larger;
-    margin-top: 80px;
-    flex-direction: column;
     text-align: center;
-    align-self: flex-end;
 }
 
 .Works {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
 }
+
 #side-pic1, #side-pic2, #side-pic3, #mainCard {
     background-color: var(--lightestBlue);
     color: var(--darkGold);
+}
+
+#mainCard {
+    
+}
+
+#side-pic1 {
+
 }
 
 footer ul{
@@ -97,5 +111,6 @@ footer ul{
     float: left;
     max-width: 600px;
     min-width: 300px;
+    border-radius: 10px;
 }
 
