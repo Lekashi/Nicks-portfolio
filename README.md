@@ -11,8 +11,6 @@ This code is my portfolio website. This website shows my projects with links to 
 
 1\. Add more pseudo-classes
 
-2\. Fix folder name of "assests" to "assets"
-
 ## Links:
 
 [Link to Github Repo](https://github.com/Lekashi/Nicks-portfolio "Link to Github Repo")
