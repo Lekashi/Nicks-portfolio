@@ -4,9 +4,13 @@
     color: #777;
 }
 
-:root{
-    --darkestBlue: #1B32F5;     --darkBlue:#1C70FF;    --blue:#25A1E8;     --lightBlue:#1CE8FF;     --lightestBlue:#1BF5CF;
-    --lightRed:#F71B1C ;
+:root {
+    --darkestBlue: #1B32F5;
+    --darkBlue: #1C70FF;
+    --blue: #25A1E8;
+    --lightBlue: #1CE8FF;
+    --lightestBlue: #1BF5CF;
+    --lightRed: #F71B1C;
     --gold: #EBE817;
     --darkGold: #9E9C08;
 }
@@ -30,18 +34,18 @@ header h1 {
     text-align: center;
 }
 
-header nav{
+header nav {
     align-self: center;
     flex: 1 0 0;
     text-align: center;
-    padding:10px;
-    color:white;
+    padding: 10px;
+    color: white;
     text-decoration: none;
     position: relative;
     top: -13px;
 }
 
-nav ul{
+nav ul {
     font-size: 150%;
     margin-bottom: 0px;
     text-align: right;
@@ -49,9 +53,10 @@ nav ul{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-nav li{
+nav li {
     display: inline;
 }
+
 nav a {
     display: inline-block;
     padding: 20px;
@@ -64,18 +69,40 @@ nav a:hover {
     background-color: var(--gold);
     border-radius: 10px;
 }
-
-footer ul{
+footer  {
+    display:flex;
+    justify-content: center;
+}
+footer ul {
     list-style: none;
     text-align: center;
+    background-color: var(--darkestBlue);
+    padding: 6px 0px 6px 0px;
+    width: 300px;
+    border-radius: 10px;
 }
 
 .projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-left: 100px;
     flex-basis: 60%;
+}
+
+.projects a {
+    margin: 20px;
+}
+
+.projects a h3 {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    top: -400px;
+    background: cyan;
+    width: 250px;
+    left: 35px;
+    border-radius: 5px;
+    padding: 3px 0px 3px 0px;
 }
 
 .projects a img {
@@ -88,10 +115,12 @@ footer ul{
 }
 
 .Resume h2 {
-    background-color: var(--darkestBlue) ;
+    background-color: var(--darkestBlue);
     max-width: 120px;
     min-width: 120px;
-    text-align: center; 
+    text-align: center;
+    padding-bottom: 8px;
+    border-radius: 3px;
 }
 
 .Resume h2:hover {
@@ -113,11 +142,10 @@ footer ul{
     align-items: center;
 }
 
-
 #aboutMe h3 {
     font-size: x-large;
     flex-direction: column;
-    border-bottom:solid;
+    border-bottom: solid;
 }
 
 #aboutMe p {
@@ -130,4 +158,9 @@ h2#Works-Title {
     text-decoration: underline;
     font-size: xx-large;
     font-weight: bolder;
+}
+
+article.Works {
+    background-color: var(--darkBlue);
+    border-radius: 10px;
 }
